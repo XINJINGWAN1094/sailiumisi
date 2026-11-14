@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.character-gameplay.json",
+  "include": [
+    "../../@types", "../../*.d.ts",
+    "../src/角色卡玩法规则包/界面/人物与宝物/*.ts",
+    "../src/角色卡玩法规则包/界面/人物与宝物/*.vue"
+  ]
+}

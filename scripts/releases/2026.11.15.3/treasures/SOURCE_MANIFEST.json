@@ -1,0 +1,945 @@
+{
+  "runtime": "index.js",
+  "files": [
+    {
+      "path": "@types/function/audio.d.ts",
+      "bytes": 3380,
+      "sha256": "e98133d76068640fc5fde3f9641849833f2b0df07bd18489851d715ceefbe019"
+    },
+    {
+      "path": "@types/function/builtin.d.ts",
+      "bytes": 2766,
+      "sha256": "cc2d1006b92c6ab07266ea38271f5355a07195cb68417243446a30194aa73a8d"
+    },
+    {
+      "path": "@types/function/character.d.ts",
+      "bytes": 5804,
+      "sha256": "fdc8dad90610d85217e62e0c2aa4c9c2c80c553aef7352b640a1aa05d4671cc6"
+    },
+    {
+      "path": "@types/function/chat_message.d.ts",
+      "bytes": 9679,
+      "sha256": "302930d6cc697321d0e1514d096dcd272a465fbc418f2190b41ddcffafc19327"
+    },
+    {
+      "path": "@types/function/displayed_message.d.ts",
+      "bytes": 3026,
+      "sha256": "fec1e5463e931e788c787d2a7263e24570ae42429ba04f4648779afe9a161bb1"
+    },
+    {
+      "path": "@types/function/extension.d.ts",
+      "bytes": 3513,
+      "sha256": "8f465ba49481eec9786526e90c58321d7e4ae813b9732a77b64e51e64274593c"
+    },
+    {
+      "path": "@types/function/generate.d.ts",
+      "bytes": 17722,
+      "sha256": "1335a9a8d3a2145d03ffb3524fec6e9db33b12981f674c2dd8375eefdcb7829c"
+    },
+    {
+      "path": "@types/function/global.d.ts",
+      "bytes": 1151,
+      "sha256": "d0492afafb529e73a3041c7c417e7cd1ac9751636287931b30d9945e20284b05"
+    },
+    {
+      "path": "@types/function/import_raw.d.ts",
+      "bytes": 2252,
+      "sha256": "436bd0f69cc9f1633389172fed30258eb402c9a9af45eef12411a2aa4cbffaa9"
+    },
+    {
+      "path": "@types/function/index.d.ts",
+      "bytes": 7664,
+      "sha256": "c182690c468c19551e9894cd8df3236abdc2d7b6e837a76af7ea2e00c56b9706"
+    },
+    {
+      "path": "@types/function/inject.d.ts",
+      "bytes": 1464,
+      "sha256": "315bbd3329cea8fe269e1d396948bd98f5c916787d9bd8c4f8cd0359015d71b0"
+    },
+    {
+      "path": "@types/function/lorebook.d.ts",
+      "bytes": 2204,
+      "sha256": "da35836080d2d95a63b7217f9c2550d29e843ec33012953a0fc3b296799c7883"
+    },
+    {
+      "path": "@types/function/lorebook_entry.d.ts",
+      "bytes": 2545,
+      "sha256": "e47a25ec0daa12124ef6304ee49f93ab23353673295c5da046a9aa1c0538555d"
+    },
+    {
+      "path": "@types/function/macro_like.d.ts",
+      "bytes": 863,
+      "sha256": "0b9bd09646f2e2692f51dbfdd9eade9c0efbb10f092d86de5ed681a1972eda0b"
+    },
+    {
+      "path": "@types/function/preset.d.ts",
+      "bytes": 13556,
+      "sha256": "d8ec4e769c56a7422634cbe5ec5e03823d518d2c0c56e1eb798dd6ca2e513541"
+    },
+    {
+      "path": "@types/function/raw_character.d.ts",
+      "bytes": 3635,
+      "sha256": "c1356c5d04cbf8f7fa11017b514261ba202281a43f0a99741671e43d2396a69b"
+    },
+    {
+      "path": "@types/function/script.d.ts",
+      "bytes": 2355,
+      "sha256": "db4ebfac5af91223cb9be3f106aa7ed94acfba14d8eb2529746080fb82d1113e"
+    },
+    {
+      "path": "@types/function/slash.d.ts",
+      "bytes": 1208,
+      "sha256": "773543ca4ac5e231e7ba8dc1d22c779f980755bf57601b946369b63a718c4285"
+    },
+    {
+      "path": "@types/function/tavern_regex.d.ts",
+      "bytes": 4560,
+      "sha256": "a5ec8c100cf54462e9aaa0ea9c8d28d4324df03bbfd34d57a1170eab5c7ac9bf"
+    },
+    {
+      "path": "@types/function/util.d.ts",
+      "bytes": 1233,
+      "sha256": "12ad465ff717f86b259bb49cf32cc915fa938b3f632a980192edbea19419fd2b"
+    },
+    {
+      "path": "@types/function/variables.d.ts",
+      "bytes": 7404,
+      "sha256": "45bc282ef55a070edcd6d659313f609fe38dae0650897c2fcf9243b00041ce1b"
+    },
+    {
+      "path": "@types/function/version.d.ts",
+      "bytes": 169,
+      "sha256": "f512d3d436b96ccd1b17a4c67e6ac2912cd4b1121d8a9ce02315b9593667e0b7"
+    },
+    {
+      "path": "@types/function/worldbook.d.ts",
+      "bytes": 11965,
+      "sha256": "7e7b46508d50cf37775937b534f529b9580f5d88557461ff7a786e9a2a574102"
+    },
+    {
+      "path": "@types/iframe/event.d.ts",
+      "bytes": 21482,
+      "sha256": "6315741043f29798891536f23debae22018712191463d00ee86a44cf22a00c19"
+    },
+    {
+      "path": "@types/iframe/exported.ejstemplate.d.ts",
+      "bytes": 4448,
+      "sha256": "55dc38589c2a01a01e162411af321c536d6cd142a18ce3ffb207d699d14fabe8"
+    },
+    {
+      "path": "@types/iframe/exported.mvu.d.ts",
+      "bytes": 8024,
+      "sha256": "f59b8af4782ebd813be11bd1040d4d37f14241ff79bed5b09b9b7aa5c141728d"
+    },
+    {
+      "path": "@types/iframe/exported.sillytavern.d.ts",
+      "bytes": 26377,
+      "sha256": "88ac22301fd01587786aa394b1b05fd466cf4d610b5ff52d07f32bef95247f80"
+    },
+    {
+      "path": "@types/iframe/exported.tavernhelper.d.ts",
+      "bytes": 296,
+      "sha256": "3ce05ebcbedee09da964156f506ac1191fa1477b7e07b876b705aa58891e69a3"
+    },
+    {
+      "path": "@types/iframe/script.d.ts",
+      "bytes": 2719,
+      "sha256": "b3eefce598b3eefe03aa598e2d76b97922b058a3551a8fdd37265743fc8e9f11"
+    },
+    {
+      "path": "@types/iframe/util.d.ts",
+      "bytes": 1621,
+      "sha256": "57939734be3b0728bf502f0c6713727920391dfa3c3f7ad834dc8ee8a2523ab0"
+    },
+    {
+      "path": "@types/iframe/variables.d.ts",
+      "bytes": 510,
+      "sha256": "b85166d18310f84d6fcd68ff5a9957170a53d655a507e97587a15f79d720c902"
+    },
+    {
+      "path": "auto-imports.d.ts",
+      "bytes": 19970,
+      "sha256": "71013c9a137a2d29e9af31bced5ead49460facd78cd894c37620d440760c3677"
+    },
+    {
+      "path": "auto-imports.zod.d.ts",
+      "bytes": 272,
+      "sha256": "be8f95e71f0a917fd959ddc9b8666625312186aaaa2a24f0cf45cda9e0daf8cf"
+    },
+    {
+      "path": "components.d.ts",
+      "bytes": 405,
+      "sha256": "6408fbd6d966b59de8857f367fa006fd86a96069015b450a93a6ad85123ccc24"
+    },
+    {
+      "path": "global.d.ts",
+      "bytes": 1091,
+      "sha256": "8ac905ce41549c014fdded8e4c9381896f3d3f4f7fd1ca9b7b83645692a35d44"
+    },
+    {
+      "path": "package.json",
+      "bytes": 5153,
+      "sha256": "b294c8fd99bff0a2a63507e9111dc6ecef394de94a80af0180b3c486e3749430"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 271670,
+      "sha256": "2d3ffb7dbd0fc92174777b2b74dade54f8325efe7d95b85c1126b6183c17cc33"
+    },
+    {
+      "path": "src/角色卡平台防盗/config.ts",
+      "bytes": 4014,
+      "sha256": "733b60c6d64bf33e5336778691728c3ab62fc9725483cac2b10086be7d5fba89"
+    },
+    {
+      "path": "src/角色卡平台防盗/detector.ts",
+      "bytes": 7083,
+      "sha256": "7a559155e6f3640c0206d328450bda7f143141a798fb2a65e5217b2dd5008038"
+    },
+    {
+      "path": "src/角色卡平台防盗/guard.ts",
+      "bytes": 2986,
+      "sha256": "0a357b954c87dbac1bcc4457d5acf4ad3d6eb10fcd6758576becbfcdd5f5778b"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 1027,
+      "sha256": "c0ceb27746c295710ea041d10cbaf26b6d929474b089c096f448107e8efea150"
+    },
+    {
+      "path": "构建说明.txt",
+      "bytes": 296,
+      "sha256": "231c7dd8c7798cdbb73beaada0697fbdbcaf459dc76b5979a119aa6991d6a13a"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/display.ts",
+      "bytes": 934,
+      "sha256": "55de0069d0f1e277b2e71e4902da32f7929f9a3b07b5cab3e1fb25e1d115af43"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/dragon-growth.ts",
+      "bytes": 3991,
+      "sha256": "4c346c7779b7f5d5e229f68c23e1c0637bc2c76b8ae7e526a053c77464465fac"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/economy-ownership.ts",
+      "bytes": 6373,
+      "sha256": "33ac2f885bb6c03337394bb0e89d2df4e10114360831899363067d8d9a740e29"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/equipment.ts",
+      "bytes": 16726,
+      "sha256": "c7c51258523674ccbda53e579d31bcd6282bd747bf942c75440a2aac647ab082"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/people-context.ts",
+      "bytes": 6003,
+      "sha256": "ca82dee8490fc59be7cd9acefa5c919ee9f5629907c68d80a3f76d390f94011d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/progression.ts",
+      "bytes": 33245,
+      "sha256": "8394371a1c4835fbfcac3ecaae380e5d954cdf7ae9437ec4d51c7d5c097f314d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/treasure-config.ts",
+      "bytes": 112,
+      "sha256": "0bd2fdd90d96c9294b412fb097c838469003d04624290f152db90c1430e49744"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/treasure-effects.ts",
+      "bytes": 9995,
+      "sha256": "7e38feafb07feac65eae2e1c49de4ff6f035549f16e92de819ddd10d18e5cd31"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/treasure-opportunities.ts",
+      "bytes": 9658,
+      "sha256": "b9fe7855f401e459a89ff695ac2c4b18b4cde0dd601f1a50bb08f25e02b5d102"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/App.vue",
+      "bytes": 47127,
+      "sha256": "79af528e0724f107ed519dcb1701ba75800233d7ea55f75d8e4a9e29341baf4d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/.gitignore",
+      "bytes": 82,
+      "sha256": "1f4e8c16c9269db6a2408a3a7dd98b841310af47ae55a692283722fed85516c8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/archive-footer.png",
+      "bytes": 117361,
+      "sha256": "cdd64ce88e0ec1def04fc60a8cebd26f40b38d09ccc24b46c4114946eca81d16"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/archive-footer.webp",
+      "bytes": 15176,
+      "sha256": "998d2960c0e5f47f6bc3148b3331045367a0bb9964affbaad81f9cb3c32bf005"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/blue-button.png",
+      "bytes": 3085,
+      "sha256": "63c21b4d9f5e039234baa85d7e85f14763a32fbbeccd7b65ae7cb2b9606d6281"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/blue-button.webp",
+      "bytes": 800,
+      "sha256": "4142e7b861340da71e6bac3fe58487b81f7555947229adf4f9f53bdc2cf3c452"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/button-frame.png",
+      "bytes": 50534,
+      "sha256": "632aaf83ffbbb789685341d052cc87e79194c4ada3e69587e4d42178383d68a8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/button-frame.webp",
+      "bytes": 12228,
+      "sha256": "353e38a360cb8eff8099218c73a16de5c0102681afc2d71386cbf1d8c11f8831"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/castle-paper.png",
+      "bytes": 366134,
+      "sha256": "58e9e250cbe71c7cb10297f4cd7ddf7c72ec2777d14a711d5590d38febb6230d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/castle-paper.webp",
+      "bytes": 45452,
+      "sha256": "86472dbfbf205d56422dd79755563c093c7ba965a4f110eb9b1d5500131f7ba6"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-accessory.png",
+      "bytes": 1930906,
+      "sha256": "5eebce342494850d0018f25714e07bec02e9173e62029fb4726320074c7e84b1"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-accessory.webp",
+      "bytes": 275930,
+      "sha256": "bbd7048d1742feb202b3903172bc44cf5fac52f2e74757183bf9cbd2ff848db3"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-armor.png",
+      "bytes": 2001136,
+      "sha256": "e7c9df486332687225d1e71344becd9539b708a39c2e94b284206379c2213526"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-armor.webp",
+      "bytes": 301002,
+      "sha256": "302ec4de43f890ae4300a9a2a29014ea60dc4076c3e54fc65b413b8e3d92434c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-cultivation.png",
+      "bytes": 2033803,
+      "sha256": "1ce30c5988822c6dc36779002a22135839f9a49728f7aeef355bbdfaaafdf63f"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-cultivation.webp",
+      "bytes": 317636,
+      "sha256": "18071b570c701b8b54f1b346b7c00c1324d4a560fa38e0e469e54952997de06b"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-frame.png",
+      "bytes": 28615,
+      "sha256": "79e845e9ef5d0cb1188e7046de391eb30e9afed505d6b75271ecbbed49d7ab8c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-frame.webp",
+      "bytes": 4316,
+      "sha256": "cf086741c5c67f119f4c937bf5e6b940dd592d164cd4fc815d20ca3719a7a788"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-special.png",
+      "bytes": 1939594,
+      "sha256": "70093237fbc9b0ae34eb91db7d3986fbde9fcb9f4fdf8ec5e26a33fe72f4f96b"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-special.webp",
+      "bytes": 284682,
+      "sha256": "41f223a66b998e04807f868ed75e8f0da743f71f210254933c8ff2fc6cc20a92"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-weapon.png",
+      "bytes": 2039804,
+      "sha256": "0b684fd10031bf3eab6974cca72560dca6b3dc65bfaacffcb67392f5f35f17be"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/category-weapon.webp",
+      "bytes": 282720,
+      "sha256": "7aa73d4c99a79eb4540d018118db1d60f3cd3c2c6c261104a918f3d9436301b2"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/compass.png",
+      "bytes": 43202,
+      "sha256": "c81771a528975b2fa00535dab0bc1cd38aeaf8461d73da2003fb612833bef0bb"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/compass.webp",
+      "bytes": 10720,
+      "sha256": "357929a8c39a550ab9f71bd26b8f539a76c558ae670e2ce68236770888800d6d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/crest.png",
+      "bytes": 12536,
+      "sha256": "d0cbc05c47fc424913ef8e20881d8986800226558bdea633d5890921be95049f"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/crest.webp",
+      "bytes": 3334,
+      "sha256": "ca70af58d303cd5f8fe0fae6b2a9926063365eee2c6b8209ef63a06d8439333d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/desk.png",
+      "bytes": 319318,
+      "sha256": "698cbe5d816c48279f28f724800f60bf314755a73545b1e8f1b1ad0a4c52105a"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/desk.webp",
+      "bytes": 54746,
+      "sha256": "01a7462a6d5b6f8acb9ad8a608eef4c1a054998d73eebe8d1832b6cbf39b746c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/dragon-watermark.png",
+      "bytes": 28943,
+      "sha256": "2d8897e9eea069fcd35cb49d2a582e2752ae9f751c43f162196e3bb8ae0d9541"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/dragon-watermark.webp",
+      "bytes": 10772,
+      "sha256": "436696e4b50d466ac42af31249436ae0c732ce92f21083f55725bd0acfde2074"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/equipment-frame.png",
+      "bytes": 9902,
+      "sha256": "80f5d60f2acd29c5531b81bf42448751e671ed21c435c34924e0c7a0c20e2ef8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/equipment-frame.webp",
+      "bytes": 2112,
+      "sha256": "0ed3e753ce993eff68dbe9bc1803c960766f60244a44c44962f7a8b22d822a64"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/foil151-iri-7.webp",
+      "bytes": 36650,
+      "sha256": "8840244877a54032b88beccb06d467c85c95e749d332699cc61e79e05ecb633d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/foil151-iri-8.webp",
+      "bytes": 36404,
+      "sha256": "1fec0c57c69d4f5d04b498f8748f65e4d1e8a0d972186d5556e7780b7c379520"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/foil151-iri-9.webp",
+      "bytes": 34010,
+      "sha256": "4d3f33e6e9453a0a7a179ca5c077d6add11a4ec4e362726a99502093369ca78e"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/header-architecture.png",
+      "bytes": 88205,
+      "sha256": "547dd31e0e6d89d7cd71b33b23d12ea2fa286f9d943f082736c80f520a7bb0e0"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/header-architecture.webp",
+      "bytes": 11438,
+      "sha256": "a1d8b9a03a0e6ed376f565d9558f31faa48b361a626f71819518124e350ecc49"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/header-castle.png",
+      "bytes": 49792,
+      "sha256": "12432c750562a2a7806c654468175c1546002a22ab2ee959a2b8bb98dc858b15"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/header-castle.webp",
+      "bytes": 6470,
+      "sha256": "d000c712e4fd34ce35a9fbba5bef841c53d97e4317a69b70c8cc74b367c776d8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/header-rule.png",
+      "bytes": 6765,
+      "sha256": "2922c9152ea3d42a9b7a1c9c8857af7d1aaa9a6ffabef6485e91920ff95bdba2"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/header-rule.webp",
+      "bytes": 1748,
+      "sha256": "95cd4b1f3aeccf5670eebc3673d4759255741a14f5b8227bacd2547f4b664dc0"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/heraldry.png",
+      "bytes": 10002,
+      "sha256": "0109c622b073ac22cbe22d5cdd4dc3c0925db03573a95b9d55d2fec4426900e5"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/heraldry.webp",
+      "bytes": 2948,
+      "sha256": "0b9e0e8430638ded6e6417d961ae99d712488198d5dd271f16e48688e888f9e8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-all.png",
+      "bytes": 580,
+      "sha256": "6865a4c4fdb266113e311430078e9132f72b5ab9022fc799896b4e9939bb4d39"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-all.webp",
+      "bytes": 992,
+      "sha256": "b054228e8f327bac5f59317ac85baee70f54bbdd65de934400d97258674ce3b0"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-attack.png",
+      "bytes": 495,
+      "sha256": "fdd8fa5e641467932bc50dd4ecc2148c1958b34eb412e1afd8f1e1240a676504"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-attack.webp",
+      "bytes": 934,
+      "sha256": "eaadb9e2b5d15b6e5835a61858cdf0a9b72de15742049f4a93c621d6d676cb37"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-cap.png",
+      "bytes": 408,
+      "sha256": "d30f8c086bb81e661ea4b5952d397dbd18e4fc15eebfd7b0d2266960b0297dc7"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-cap.webp",
+      "bytes": 820,
+      "sha256": "36ffac06cd2685d2e7e8ea083eff6d89580d16f03a8fb6f998dd7c6bf2d04e38"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-defense.png",
+      "bytes": 499,
+      "sha256": "a0eb9eb81c2f364e28cd23823d8156b12d96aee4be9d756777dfeec41d63d48d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-defense.webp",
+      "bytes": 884,
+      "sha256": "bf9dc691cf772d77805e2855d5ca9a6545d7b148ad8951d756fa8e0da14b6bce"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-energy.png",
+      "bytes": 573,
+      "sha256": "181e15d50b58fe2508b5915258d3d43dfed1bc6dc97b42b21504d877f21f7870"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-energy.webp",
+      "bytes": 996,
+      "sha256": "fa263f7a40913f63bc0322d4869052d9588e37932da245f921f371ae7ec86efb"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-life.png",
+      "bytes": 365,
+      "sha256": "c4a1f5abb19adc2215ae4ced5f8a5b83c4b4dbdaeb58bc9482d61442fba1e560"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-life.webp",
+      "bytes": 780,
+      "sha256": "417a41c461889c2cae1951d2608183d96681b4a99611622101c43851f26cfc2b"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-person.png",
+      "bytes": 446,
+      "sha256": "65fc0d8c65dcc42e5d393711f82c6f26c71af681404126a42e327b140003b84a"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-person.webp",
+      "bytes": 862,
+      "sha256": "5881dae0f5452d5003356990ec72bb8c7db60d1435c0a44e43ec27ec3ff800c4"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-ring.png",
+      "bytes": 617,
+      "sha256": "7a4889d15a856b8267bbc25c249df511e1dd09335557e04810ca4fc92791ee4d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-ring.webp",
+      "bytes": 1022,
+      "sha256": "7ebbb9bf17d3b83ff38329879127004631f096060cf3c13944761cbbc9690803"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-search.png",
+      "bytes": 553,
+      "sha256": "5dc40280db4bec8c59c91efc40bf2525e9675b700482654125560f9872a0022c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-search.webp",
+      "bytes": 974,
+      "sha256": "dd035a3e9220d264377954afa026bb43c1a287dd079a53e5fb5e4ffc9c09b363"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-secret.png",
+      "bytes": 751,
+      "sha256": "ee87d78bbbd3036af54df19074302f845e6291330880ab2caf6b62296656cefe"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-secret.webp",
+      "bytes": 1110,
+      "sha256": "fcc8831be09fad40ed5560531bbc42f089d4f5f3328a78a96afe33915aa66822"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-special.png",
+      "bytes": 492,
+      "sha256": "48dec423aedb5790846e622738a284af3aa1fd85cc539f695547f75b8686f2f3"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-special.webp",
+      "bytes": 940,
+      "sha256": "6472b96b0093c57ad0ba211d4e1678d637ed034d6d2446b1183a3f19eeb198e5"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-weapon.png",
+      "bytes": 525,
+      "sha256": "dfd18c268c38a5f9de7cc8ffd1974bae0fb523bd328a1a0e003cafbd8f4b5412"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/icon-weapon.webp",
+      "bytes": 914,
+      "sha256": "ae6c4c8f32a9677c2ebc4d4f331da76eee4fc228469ac6634812bfdfc4d91579"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/item-frame.png",
+      "bytes": 21328,
+      "sha256": "da3979fa749df5ec3301cadfad9a0f1c1af8f8b7af4d43c34fcb8e83838de761"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/item-frame.webp",
+      "bytes": 2930,
+      "sha256": "942302db0b5c1206a9aa7c81dbf12ead3ce57fc2125b090e19d36f057aa30490"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/navy.png",
+      "bytes": 35327,
+      "sha256": "8afdaa3614fc1a277cf70c3f1c9c9ab5d64833754ecb53a7229e4d85f74550b8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/navy.webp",
+      "bytes": 4242,
+      "sha256": "1bf19d88a8e1e13da8996aaef11b68519585527513b05c496a87eb2a20ddba90"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/panel-frame.png",
+      "bytes": 130285,
+      "sha256": "35d11b0282cf79cf85ac78e3c7e2ea738020a860beb9dcb91d22fb73e624bac9"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/panel-frame.webp",
+      "bytes": 13674,
+      "sha256": "2340b7f37ff9c12e9d1223466efa9c668018238e0bfa97dd76e5153145595298"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/paper.png",
+      "bytes": 71892,
+      "sha256": "54e3a574b1bac61e6c264437a6c14b4c065868b3588f64bbbbe7ce2cee665478"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/paper.webp",
+      "bytes": 5544,
+      "sha256": "1ce8825f8dbaf6bc74265472be2bd7f8446ae3a208475821988cf0e7e952bbd8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/portrait-default-female.json",
+      "bytes": 1323,
+      "sha256": "6b03aa66ce5053e63c24612e56b9dff468f184890ef181bf123addbbdd0ac80c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/portrait-default-female.png",
+      "bytes": 2423129,
+      "sha256": "880a9fce58ff3bd991f10344bc5ea6ad9a86c9c99d7d33dcfc88e1160c96c177"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/portrait-default-female.webp",
+      "bytes": 384868,
+      "sha256": "f2e7188a573a0e2a855a62e4c8a282a0691f7a4470a7a1c926e377d98bb697b7"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/roster-frame.png",
+      "bytes": 12817,
+      "sha256": "3d4964ce1261752f21053758eb9507988004137dd7379c15e3311f6fd8ba5e92"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/roster-frame.webp",
+      "bytes": 2234,
+      "sha256": "ec461a59fb46033af2cdfe17015e0e2ac978cbb7464dc2da4bdcb6148a7619af"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/row-frame.png",
+      "bytes": 19559,
+      "sha256": "48024176ab7a7a52e1e62153375c4e2d96f64cfa3ddfc5ca2ed2629ce52172d9"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/row-frame.webp",
+      "bytes": 3634,
+      "sha256": "0d7bc32f639354257b9a04989ecf31230869a6ac25b4e8a28f9f6206c838b511"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/section-rule.png",
+      "bytes": 11473,
+      "sha256": "a1610d8168cad732563f392ceb03cb4016cd539909a2e1e86248c548c42c64ec"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/section-rule.webp",
+      "bytes": 1452,
+      "sha256": "4dbf5d56b9c45496df644f11f95bde84fa8b175efc52318b9beafbb76d8c1509"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/selected-frame.png",
+      "bytes": 21777,
+      "sha256": "a256419ae1ba8fb13d67e4002cc5dde0eaef9840a129598d60f98f9fb1cde5bb"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/selected-frame.webp",
+      "bytes": 3822,
+      "sha256": "55ec590bfd3f25dc8d309ec285c0bf174d6f61df8da43304f091045e13476af7"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/sources.json",
+      "bytes": 8718,
+      "sha256": "a78eea396eb5b07e08a1dbf09ac8823e6aaa3ddc49fd0ccb5389c9af792d00ad"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/stats-frame.png",
+      "bytes": 23564,
+      "sha256": "f60a7cb6b2ac0cd96664862c12996d7b8d00a495ffcf63f68d82a57d905f7d71"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/stats-frame.webp",
+      "bytes": 2678,
+      "sha256": "5ca99e089fa05a749e9b66b37346b4f81f1cfbe4ed2be08ecb296bea23f5e750"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/title-ornament.png",
+      "bytes": 3589,
+      "sha256": "a725b62bfc8e4b76b7139b4895cd72b32e5900b229a06964280093308efab671"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/title-ornament.webp",
+      "bytes": 1242,
+      "sha256": "cc76500d8048fb06a78a69bb13bbbf04dc6d6a98ec766e6296eef7052b09ded0"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/assets/webp-manifest.json",
+      "bytes": 6855,
+      "sha256": "9d33ed82531d2161b1eb1335eaf2830a94088b7e0147cb9d80699f7050647e12"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/DESIGN.md",
+      "bytes": 1625,
+      "sha256": "9f4223e9ad818f8a165f90084f5195079e4849efff66d0821ef4c0a0c4eadf05"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/fixture.ts",
+      "bytes": 4930,
+      "sha256": "aa5d08f8d6cb37033c0725d139d94400b0fff3d56c9836426a59373911f1c98b"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/floating-registration.ts",
+      "bytes": 7449,
+      "sha256": "f871cd36e6453cdbd32dc5252f0b0c5f46d12db24fe73f1aab63ba7e20d0444c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/index.html",
+      "bytes": 60,
+      "sha256": "35ab15c842cdf11e71ce9599189edc48da8d86819f2c102646998993066b7e02"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/index.ts",
+      "bytes": 334,
+      "sha256": "9ab496ba20014dc6a4dba5cd4c2b6ea896f2e873199443b876c9debcee53c278"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/launcher.ts",
+      "bytes": 6398,
+      "sha256": "29fd226a7f9a30789fa01a4ee2ec9df360019556931d6e17db4eb384260d10d3"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/inspira-ui/GlareCard.upstream.vue",
+      "bytes": 5689,
+      "sha256": "cc5a875f4ad49a27330c6b10042c7e9c6c8769a60853b313711a1143c1547540"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/inspira-ui/LICENSE.txt",
+      "bytes": 1072,
+      "sha256": "d904968f598513fac059cbeb3dccad62e8b8b65a03dfb175da1d0c6599d16b25"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/inspira-ui/provenance.json",
+      "bytes": 265,
+      "sha256": "2f5602abfe539e005a140cecfb16864e9e9fe25c54b1e40b22453198061085df"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/LICENSE.txt",
+      "bytes": 35161,
+      "sha256": "13da3768f41c4ace8fa0f737706e1e4853b74463f6e154f9edd7e952ef678c58"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/provenance.json",
+      "bytes": 845,
+      "sha256": "48a932362c37577a54345395768c113c555ad3417dc0464037bf0a0633b31144"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/textures/iri-7.webp",
+      "bytes": 36650,
+      "sha256": "8840244877a54032b88beccb06d467c85c95e749d332699cc61e79e05ecb633d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/textures/iri-8.webp",
+      "bytes": 36404,
+      "sha256": "1fec0c57c69d4f5d04b498f8748f65e4d1e8a0d972186d5556e7780b7c379520"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/textures/iri-9.webp",
+      "bytes": 34010,
+      "sha256": "4d3f33e6e9453a0a7a179ca5c077d6add11a4ec4e362726a99502093369ca78e"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/base.css",
+      "bytes": 9345,
+      "sha256": "c641d46d09a590461c7cad38cabe8535334a7247d3f3c22b97f2f040c82eaece"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/Card.svelte",
+      "bytes": 11267,
+      "sha256": "6203d648efe6b8a4159f67ad604c8aacba4d72970ffb40cd217598ec9ae8c99e"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/Cards.svelte",
+      "bytes": 2903,
+      "sha256": "b0049f3eb08075cab38fe347e0ddb9c90808baf7b206f87554b048e7f880a5ad"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/ex-full-art.css",
+      "bytes": 4291,
+      "sha256": "992ce311620a02232b434bb4e1333987433d6282a23a2ae567d87b15acdec1f4"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/ex-special-illustration-rare.css",
+      "bytes": 3688,
+      "sha256": "e929f0d4b2b3fb765ec29d0270ed1f2fe632f6e9b92e81ac740e2a86e9d744fd"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/illustration-rare.css",
+      "bytes": 3182,
+      "sha256": "a091b2030524a1e8d0c353af205b7e94d0b4644e515669c33419e5c476f2b203"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/iri-7.png",
+      "bytes": 69138,
+      "sha256": "27d24c1f3293965ff392cd0865ee7fd7cf3b2ed3f823a4daaa2846e7439f9fbe"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/iri-8.png",
+      "bytes": 54284,
+      "sha256": "6cbb43df6b8ae54c20314a51e14f702b2a85c39c8106cd23c9a462915de1162b"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/iri-9.png",
+      "bytes": 58306,
+      "sha256": "4a4d6d2736db8b5d1b189264591615ee4b1a113d95047c429068ce8af620f832"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/upstream/README.md",
+      "bytes": 2686,
+      "sha256": "305d47dc0e0bb0d655482f323648b4bde00b5248a6d05824046afe089d50048d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/licenses/pokemon-cards-151/使用与改动说明.txt",
+      "bytes": 1774,
+      "sha256": "a7346f906873c0c6d1040954e98c87e68a13a95ff8a06862469292711d570737"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/PersonTriggerSettings.vue",
+      "bytes": 3283,
+      "sha256": "87a70b4b20c7eb6166dfd55bf7fec5b5da40a91abbf36fe6cbb472771b7ce4e8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/portrait-151.css",
+      "bytes": 5425,
+      "sha256": "79400ea29376025a9e7bfa6c9438e6321538b8eb352e21eaa5c3e3452b79baeb"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/portrait-effects.ts",
+      "bytes": 815,
+      "sha256": "5cf301f4cc693d3fd47305f5a8619373775df7c642346b10629e4be65f08b87c"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/Portrait151Card.vue",
+      "bytes": 6638,
+      "sha256": "0978e9f27b2a64c9b48a37c4dd33f551156c939f8b7cb4f0e4299a6bd7467fe0"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/PortraitCard.vue",
+      "bytes": 924,
+      "sha256": "ad7d944885ecc5ec336ce1fbbcdc7d95cd2a6c2f218b039b7c3785d6718475de"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/PortraitGlareCard.vue",
+      "bytes": 6760,
+      "sha256": "7215d8fc21875c6b12da725744d4288b8b70aed830820600139321c77d6c4022"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/portraits.ts",
+      "bytes": 9960,
+      "sha256": "6a68864ab54598e77d431426eb6101d00486db7793546e8af1eed29777fa1430"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/PortraitStaticCard.vue",
+      "bytes": 1755,
+      "sha256": "d66e32b5887a3eb66411823f7c3403f79ffe7cb6a6a2fdc907c98cbcf11b5589"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/PRODUCT.md",
+      "bytes": 4032,
+      "sha256": "815c8f8a218559f9ca1d6cda8cc9b210e88a9728684dcf08a8a58c2d3d02c390"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/README.md",
+      "bytes": 21591,
+      "sha256": "dac824ecf418f1226f21ed97e4dbd6df4b7258a8c0db6118d484d6f93ab79d98"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/registration-panel.ts",
+      "bytes": 11373,
+      "sha256": "5c4cb6321bb24279c8397139406b8e42c9980f33416c06c94da5e8f71d53d605"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/runtime.ts",
+      "bytes": 6191,
+      "sha256": "8b8616329df2a7592a0da5854d3f96f4bf6efb21285055db8264ed61515438a5"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/界面/人物与宝物/style.css",
+      "bytes": 64272,
+      "sha256": "d07718117991b9630d855615bd5faac5576b1c1f9d09a40730150e20051b7565"
+    },
+    {
+      "path": "赛琉弥斯角色卡/src/角色卡玩法规则包/脚本/变量结构/person-command-values.ts",
+      "bytes": 704,
+      "sha256": "5785faedc74e871a621857c48d43bfa2a1feb9fcbd43d90bedc0d5972ddf30b0"
+    },
+    {
+      "path": "赛琉弥斯角色卡/tools/build-treasure-ui.mjs",
+      "bytes": 12601,
+      "sha256": "60adcd087b26a340042fce29d712e503df13c87f5480a39d3a6829bcf1087fd5"
+    },
+    {
+      "path": "赛琉弥斯角色卡/tools/tsconfig.character-gameplay.json",
+      "bytes": 766,
+      "sha256": "5c6d753231f5ee448b5c6ab652a33958b8495dec2e7859fedeba83ec9c2bca7d"
+    },
+    {
+      "path": "赛琉弥斯角色卡/tools/tsconfig.treasure-ui.json",
+      "bytes": 244,
+      "sha256": "2bdec464936a9245cb81b35d91d552f22eb794488eb095c724db2a48c28a1355"
+    },
+    {
+      "path": "赛琉弥斯角色卡/util/castle-panels.ts",
+      "bytes": 6062,
+      "sha256": "ea84b8cecc89046900f5ae4848502ce21deaf71d60f90bdd35c2207c18552f98"
+    },
+    {
+      "path": "赛琉弥斯角色卡/util/platform-guard.ts",
+      "bytes": 171,
+      "sha256": "f17415a6a5f2e251098b1b8781124691eac48d0c87e6880f600c028a4c4cfdf8"
+    },
+    {
+      "path": "赛琉弥斯角色卡/util/private-generation.ts",
+      "bytes": 744,
+      "sha256": "cd33b157c458f1fce2e92ffe12f33a57d5d1ea44320cd08ecf7821c938b3b946"
+    }
+  ]
+}
