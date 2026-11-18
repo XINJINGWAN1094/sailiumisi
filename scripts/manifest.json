@@ -1,49 +1,49 @@
 {
   "formatVersion": 2,
-  "release": "2026.11.18.1",
+  "release": "2026.11.18.2",
   "scripts": {
     "territory": {
-      "file": "scripts/releases/2026.11.18.1/territory/index.js",
+      "file": "scripts/releases/2026.11.18.2/territory/index.js",
       "mode": "group"
     },
     "market": {
-      "file": "scripts/releases/2026.11.18.1/territory/index.js",
+      "file": "scripts/releases/2026.11.18.2/territory/index.js",
       "mode": "group"
     },
     "smithy": {
-      "file": "scripts/releases/2026.11.18.1/territory/index.js",
+      "file": "scripts/releases/2026.11.18.2/territory/index.js",
       "mode": "group"
     },
     "maid": {
-      "file": "scripts/releases/2026.11.18.1/castle/index.js",
+      "file": "scripts/releases/2026.11.18.2/castle/index.js",
       "mode": "group"
     },
     "codex": {
-      "file": "scripts/releases/2026.11.18.1/castle/index.js",
+      "file": "scripts/releases/2026.11.18.2/castle/index.js",
       "mode": "group"
     },
     "magic": {
-      "file": "scripts/releases/2026.11.18.1/castle/index.js",
+      "file": "scripts/releases/2026.11.18.2/castle/index.js",
       "mode": "group"
     },
     "gameplay": {
-      "file": "scripts/releases/2026.11.18.1/gameplay/index.js",
+      "file": "scripts/releases/2026.11.18.2/gameplay/index.js",
       "mode": "group"
     },
     "status": {
-      "file": "scripts/releases/2026.11.18.1/gameplay/index.js",
+      "file": "scripts/releases/2026.11.18.2/gameplay/index.js",
       "mode": "group"
     },
     "aurecia": {
-      "file": "scripts/releases/2026.11.18.1/events/index.js",
+      "file": "scripts/releases/2026.11.18.2/events/index.js",
       "mode": "group"
     },
     "expedition": {
-      "file": "scripts/releases/2026.11.18.1/events/index.js",
+      "file": "scripts/releases/2026.11.18.2/events/index.js",
       "mode": "group"
     },
     "treasures": {
-      "file": "scripts/releases/2026.11.18.1/treasures/index.js",
+      "file": "scripts/releases/2026.11.18.2/treasures/index.js",
       "mode": "direct"
     }
   }

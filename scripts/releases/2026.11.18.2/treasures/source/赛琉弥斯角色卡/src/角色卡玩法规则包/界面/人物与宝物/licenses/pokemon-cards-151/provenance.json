@@ -1,0 +1,29 @@
+{
+  "project": "Pokemon Cards 151",
+  "author": "Simon Goellner (simeydotme)",
+  "repository": "https://github.com/simeydotme/pokemon-cards-151",
+  "commit": "98030f941cdc4919b648457200277e29b60d5f5a",
+  "license": "GPL-3.0",
+  "retrieved": "2026-11-12",
+  "source": [
+    "src/lib/components/Card.svelte",
+    "public/css/cards/base.css",
+    "public/css/cards/ex-special-illustration-rare.css"
+  ],
+  "textures": [
+    "public/img/151/iri-7.webp",
+    "public/img/151/iri-8.webp",
+    "public/img/151/iri-9.webp"
+  ],
+  "preferred_source_images": [
+    "public/img/151/iri-7.png",
+    "public/img/151/iri-8.png",
+    "public/img/151/iri-9.png"
+  ],
+  "excluded": [
+    "Pokemon card illustrations",
+    "Pokemon logos",
+    "Galaxy Holo and cosmos assets"
+  ],
+  "implementation": "Independent Vue component; no Inspira UI effect dependency"
+}
