@@ -1,0 +1,181 @@
+/* SPDX-License-Identifier: GPL-3.0-only
+ * Independent adaptation of pokemon-cards-151 by Simon Goellner (simeydotme).
+ * Sources at 98030f941cdc4919b648457200277e29b60d5f5a:
+ * public/css/cards/base.css and ex-special-illustration-rare.css.
+ * Modified 2026-11-12: namespace, 2:3 local portraits, no card-specific foil/mask,
+ * local textures and optional mounting. Original SIR blend modes, filters,
+ * rainbow sequence, glitter layers and pointer variables are retained.
+ * This stylesheet does not target or inherit from the Inspira effect.
+ */
+.portrait151 {
+  position: relative;
+  perspective: 600px;
+  touch-action: pan-y;
+  --card-radius: 4.55% / 3.5%;
+  --sunpillar-1: hsl(2, 100%, 73%);
+  --sunpillar-2: hsl(53, 100%, 69%);
+  --sunpillar-3: hsl(93, 100%, 69%);
+  --sunpillar-4: hsl(176, 100%, 76%);
+  --sunpillar-5: hsl(228, 100%, 74%);
+  --sunpillar-6: hsl(283, 100%, 73%);
+  --holo:
+    var(--sunpillar-1), var(--sunpillar-2), var(--sunpillar-3), var(--sunpillar-4), var(--sunpillar-5),
+    var(--sunpillar-6), var(--sunpillar-1);
+  --shift: calc(3px * var(--card-scale));
+  --glitter-size: 150px 150px;
+}
+.portrait151__surface {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--card-radius);
+  transform: scale(var(--portrait-fit-scale)) rotateY(var(--rotate-x)) rotateX(var(--rotate-y));
+  transform-style: preserve-3d;
+  transform-origin: center;
+  box-shadow:
+    0 10px 20px -5px #0007,
+    0 2px 15px -5px #0007;
+}
+.portrait151__front {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  overflow: hidden;
+  background: #efe4cf var(--portrait-paper);
+  transform: translate3d(0, 0, 0.01px);
+  backface-visibility: hidden;
+}
+.portrait151__front > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+.portrait151__caption {
+  position: absolute;
+  inset: auto 16px 7%;
+  text-align: center;
+  color: #20364b;
+  pointer-events: none;
+}
+.portrait151__caption strong {
+  display: block;
+  font-size: clamp(20px, 4cqw, 28px);
+  line-height: 1.4;
+}
+.portrait151__caption span {
+  display: block;
+  margin-top: 8px;
+  color: #706552;
+  font-size: 13px;
+}
+.portrait151__shine,
+.portrait151__glitter,
+.portrait151__glare {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  overflow: hidden;
+  opacity: var(--card-opacity);
+}
+.portrait151__shine,
+.portrait151__glitter {
+  display: grid;
+  transform: translateZ(1px);
+  background: transparent;
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
+  filter: brightness(0.45) contrast(1.5) saturate(1.2);
+  mix-blend-mode: color-dodge;
+}
+.portrait151__shine {
+  filter: brightness(0.6) contrast(1.5) saturate(1);
+}
+.portrait151__shine::before,
+.portrait151__shine::after,
+.portrait151__glitter::before,
+.portrait151__glitter::after {
+  content: '';
+  grid-area: 1 / 1;
+  border-radius: inherit;
+  transform: translateZ(1px);
+}
+.portrait151__shine::after {
+  background-image:
+    linear-gradient(calc((var(--rotate-x) - var(--rotate-delta)) * -0.25), black 24%, #797979 30%, black 36%),
+    linear-gradient(calc((var(--rotate-x) - var(--rotate-delta)) * 0.25), black 24%, #797979 30%, black 36%);
+  background-position:
+    50% calc(var(--background-y) * 1.7),
+    50% calc(var(--background-y) * -1.3);
+  background-size: 300% 300%;
+  background-blend-mode: exclusion;
+  filter: brightness(1) contrast(0.75) saturate(1);
+  mix-blend-mode: hard-light;
+  transform: translateZ(1.2px);
+  z-index: 3;
+}
+.portrait151__shine::before {
+  background-image: repeating-linear-gradient(15deg, var(--holo), var(--holo), var(--holo));
+  background-position: center;
+  background-size: 240% 240%;
+  filter: brightness(1) contrast(0.75) saturate(1);
+  mix-blend-mode: overlay;
+  z-index: 2;
+}
+.portrait151__glitter {
+  z-index: 2;
+  background-image: url('./assets/foil151-iri-9.webp');
+  background-size: var(--glitter-size);
+  background-position: center;
+  background-repeat: repeat;
+  filter: brightness(1) contrast(2) saturate(1.2);
+  mix-blend-mode: plus-lighter;
+  opacity: calc(var(--card-opacity) * (0.2 + var(--pointer-from-center) * 0.5));
+}
+.portrait151__glitter::before,
+.portrait151__glitter::after {
+  background-image: url('./assets/foil151-iri-8.webp');
+  background-size: var(--glitter-size);
+  background-repeat: repeat;
+  background-position: calc(50% + var(--pointer-from-left) * var(--shift))
+    calc(50% + var(--pointer-from-top) * var(--shift));
+  filter: brightness(2) contrast(1.2) saturate(2);
+  mix-blend-mode: overlay;
+  opacity: var(--pointer-from-top);
+  z-index: 2;
+}
+.portrait151__glitter::after {
+  background-image: url('./assets/foil151-iri-7.webp');
+  background-position: calc(50% - var(--pointer-from-left) * var(--shift))
+    calc(50% - var(--pointer-from-top) * var(--shift));
+  opacity: calc(1 - var(--pointer-from-top));
+  z-index: 3;
+}
+.portrait151__glare {
+  transform: translateZ(1.41px);
+  z-index: 4;
+  background-image: radial-gradient(
+    farthest-corner circle at var(--pointer-x) var(--pointer-y),
+    hsl(0, 0%, 80%) 10%,
+    hsl(0, 0%, 50%) 70%
+  );
+  mix-blend-mode: multiply;
+  filter: contrast(1.5);
+}
+.portrait151--disabled .portrait151__surface {
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .portrait151__surface {
+    transform: none;
+  }
+  .portrait151__shine,
+  .portrait151__glitter,
+  .portrait151__glare {
+    display: none;
+  }
+}

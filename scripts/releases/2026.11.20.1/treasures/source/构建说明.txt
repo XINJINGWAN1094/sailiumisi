@@ -1,0 +1,3 @@
+保留根目录结构，从此目录安装 pnpm-lock.yaml 所列依赖后运行：
+node 赛琉弥斯角色卡/tools/build-treasure-ui.mjs
+依赖版本和上游许可证由原项目 package.json、锁文件及 licenses 记录。包含 GPL 改编代码，分发时须保留许可及相应源码。

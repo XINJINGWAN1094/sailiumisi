@@ -1,0 +1,22 @@
+来源：simeydotme/pokemon-cards-151，作者 Simon Goellner。
+固定版本：98030f941cdc4919b648457200277e29b60d5f5a。修改日期：2026-11-12。
+许可：GPL-3.0，完整原文见 LICENSE.txt。
+
+第六版：独立移植，不依赖 Inspira UI / PortraitGlareCard。
+Portrait151Card.vue 根据上游 src/lib/components/Card.svelte 实现自己的指针映射、旋转、
+弹性跟随和回正。使用 .066/.25 的交互参数、.01/.06 的回正参数及原始旋转幅度。
+为当前固定高度面板加入随倾角收缩的留白，防止四角被裁切；不包含卡背、弹窗展开、
+陀螺仪或原站分析统计。空闲后停止动画帧，隐藏页面或卸载时取消计时器和帧循环。
+
+portrait-151.css 移植 base.css 与 ex-special-illustration-rare.css：保留原项目彩虹序列、
+color-dodge / plus-lighter / overlay / multiply 混合、过滤参数和三层 iri 纹理。
+使用完整人物卡面，不采用宝可梦卡片专属的 foil/mask，也不使用依赖该遮罩的 glare2 层。
+纹理直接来自固定版本仓库，运行时使用本地 WebP；上游 PNG 文件也保存在 upstream/。
+未采用宝可梦卡图、商标、精灵球图案或单独署名的 Galaxy Holo 素材。
+
+原版柔光单独保存在 PortraitGlareCard.vue，原 MIT 声明、视觉 CSS、倾斜参数和动画时间保留。
+PortraitStaticCard.vue 为纯静态卡面。PortraitCard.vue 只切换组件，不承载共用效果逻辑。
+
+GPL 允许依照许可证使用和修改，无需单独联系作者。对外分发含 GPL 代码的整合程序时，
+仍须按适用 GPL 条款提供完整相应源码并保留许可、版权及改动说明。
+本目录是本机预览的来源记录，并不代替未来整合程序的完整源码交付。

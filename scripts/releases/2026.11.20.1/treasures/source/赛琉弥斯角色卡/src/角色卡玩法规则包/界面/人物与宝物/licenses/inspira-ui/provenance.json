@@ -1,0 +1,8 @@
+{
+  "source": "app/components/inspira/ui/glare-card/GlareCard.vue",
+  "repository": "https://github.com/unovue/inspira-ui",
+  "component": "Glare Card",
+  "project": "Inspira UI",
+  "license": "MIT",
+  "commit": "eec920b047589058b4b02ba64deb614869e7237a"
+}
